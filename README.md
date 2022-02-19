@@ -1,6 +1,8 @@
 
 ### text_classification_LSTM ###
-The repository contains the training and deploying files for text classification Built using LSTM architecture, along with a .py file which will produce a inverted right angled triangle w.r.t user input number
+The repository contains the training and deploying files for text classification Built using LSTM architecture, along with a .py file which will produce a inverted right angled triangle w.r.t user input number.
+The "lstm_word2vec_binary_classification.ipynb" file contains the model training codes, which is trained on google colab
+The final model is present in the resources folder
 
 ## Steps to deploy movie review classifier app on your local machine
 1. Pull the files from the current repository or clone the repository
