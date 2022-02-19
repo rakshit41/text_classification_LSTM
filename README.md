@@ -2,6 +2,7 @@
 The repository contains the training and deploying files for text classification Built using LSTM architecture, along with a .py file which will produce a inverted right angled triangle w.r.t user input number.
 The "lstm_word2vec_binary_classification.ipynb" file contains the model training codes, which is trained on google colab
 The final model is present in the resources folder
+The project is developed in linux environment.
 
 ## Steps to deploy movie review classifier app on your local machine
 1. Pull the files from the current repository from master branch or clone the repository.
@@ -12,6 +13,7 @@ The final model is present in the resources folder
 ## Instructions for calling the API
 1. Input format = {"movie review":"The Avengers movie is the greatest movie ever produced in the marvels history"}
 2. Application output = { "review sentiment": "Positive" }
+3. API URL = "http://0.0.0.0:5010/movie_review_predictor"
 
 ## Steps to print right angled triangle
 1. run the following command "python numbered_right_angled_triangle.py"
