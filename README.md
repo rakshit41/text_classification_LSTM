@@ -4,7 +4,7 @@ The "lstm_word2vec_binary_classification.ipynb" file contains the model training
 The final model is present in the resources folder
 
 ## Steps to deploy movie review classifier app on your local machine
-1. Pull the files from the current repository or clone the repository
+1. Pull the files from the current repository from master branch or clone the repository.
 2. install the requirements by executing "pip install requirements.txt"
 3. Run the following gunicorn command to deploy the API "gunicorn -c config_api.py classifier_api:app"
 4. The api will be deployed at local server on port = 5010
